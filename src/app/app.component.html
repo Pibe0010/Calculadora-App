@@ -1,0 +1,25 @@
+<div class="container">
+    <h1 style="text-align: center">{{ title }}</h1>
+    <app-formulario (resultadoSuma)=
+    "procesarResultado($event)">
+    </app-formulario>
+
+    <app-resultado [resultadoHijo]=
+    "resultadoPadre">
+    </app-resultado>
+</div>
+
+
+<div>
+    <h3>info y Redes:</h3>
+    <ul>
+        <li>
+            <a href="https://www.linkedin.com/in/daniel-montero-castro-859357270/">Linkedin</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/daniel-montero-castro-859357270/">GithUb</a>
+        </li>
+    </ul>
+</div>
+
+

@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-direction: row;
+
+}
+
+input{
+    align-items: center;
+    background-color: rgb(215, 222, 222);
+}
